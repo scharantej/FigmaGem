@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gemini Figma Extension</title>
+<meta charset="UTF-8" />
+</head>
+
+<body>
+<h1>Gemini Figma Extension</h1>
+<div id="chat-container">
+<div id="chat-history">
+<ul id="messages"></ul>
+</div>
+<form id="chat-form">
+<input type="text" id="message-input" />
+<button type="submit">Send</button>
+</form>
+</div>
+<div id="figma-container">
+<iframe id="figma-iframe" src="https://www.figma.com/embed?embed_host=figma-extension&url=https://www.figma.com/file/FILE_ID" allowfullscreen></iframe>
+<button id="refresh-figma-button">Refresh Figma</button>
+<button id="apply-changes-button">Apply Changes</button>
+</div>
+
+<script src="static/chat.js"></script>
+<script src="static/figma.js"></script>
+</body>
+</html>
+
+
